@@ -1,0 +1,18 @@
+{
+	"name": "unsplash-source-bulk-downloader",
+	"author": "Mikael Vesavuori",
+	"version": "1.0.0",
+	"main": "bin/index.js",
+	"license": "MIT",
+	"dependencies": {
+		"prompts": "^0.1.8",
+		"request": "^2.85.0",
+		"sharp": "^0.20.1"
+	},
+	"bin": {
+		"unsplash": "bin/index.js"
+	},
+	"scripts": {
+		"unsplash": "node bin/index.js"
+	}
+}
