@@ -1,18 +1,29 @@
 {
-	"name": "unsplash-source-bulk-downloader",
-	"author": "Mikael Vesavuori",
-	"version": "1.0.0",
-	"main": "bin/index.js",
-	"license": "MIT",
-	"dependencies": {
-		"prompts": "^0.1.8",
-		"request": "^2.85.0",
-		"sharp": "^0.20.1"
-	},
-	"bin": {
-		"unsplash": "bin/index.js"
-	},
-	"scripts": {
-		"unsplash": "node bin/index.js"
-	}
+  "name": "unsplash-source-bulk-downloader",
+  "description": "Helper tool to grab a user-specified number of random images (in a chosen resolution) from Unsplash Source, and then compress them.",
+  "keywords": [
+    "downloader",
+    "unsplash",
+    "helper",
+    "image-downloader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaelvesavuori/unsplash-source-bulk-downloader"
+  },
+  "author": "Mikael Vesavuori",
+  "version": "1.0.1",
+  "main": "bin/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "prompts": "^2.3.0",
+    "request": "^2.88.0",
+    "sharp": "^0.23.4"
+  },
+  "bin": {
+    "unsplash": "bin/index.js"
+  },
+  "scripts": {
+    "unsplash": "node bin/index.js"
+  }
 }
