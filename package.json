@@ -18,7 +18,7 @@
   "dependencies": {
     "prompts": "^2.3.0",
     "request": "^2.88.0",
-    "sharp": "^0.23.4"
+    "sharp": "^0.30.5"
   },
   "bin": {
     "unsplash": "bin/index.js"
